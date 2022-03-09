@@ -1,0 +1,64 @@
+-------------------------------------------------------------------------------
+Test set: AreWeThereYetTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 0.234 sec <<< FAILURE!
+test1(AreWeThereYetTest)  Time elapsed: 0.047 sec  <<< FAILURE!
+java.lang.AssertionError: Something strange happened. It may be that 'class AreWeThereYet' class's public static void main(String[] args) -method is missing 
+or your program crashed due to an exception. More information java.util.NoSuchElementException: No line found
+	at org.junit.Assert.fail(Assert.java:88)
+	at AreWeThereYetTest.callMain(AreWeThereYetTest.java:50)
+	at AreWeThereYetTest.test(AreWeThereYetTest.java:34)
+	at AreWeThereYetTest.test1(AreWeThereYetTest.java:17)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+test2(AreWeThereYetTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: Something strange happened. It may be that 'class AreWeThereYet' class's public static void main(String[] args) -method is missing 
+or your program crashed due to an exception. More information java.util.NoSuchElementException: No line found
+	at org.junit.Assert.fail(Assert.java:88)
+	at AreWeThereYetTest.callMain(AreWeThereYetTest.java:50)
+	at AreWeThereYetTest.test(AreWeThereYetTest.java:34)
+	at AreWeThereYetTest.test2(AreWeThereYetTest.java:22)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+test3(AreWeThereYetTest)  Time elapsed: 0.015 sec  <<< FAILURE!
+java.lang.AssertionError: Something strange happened. It may be that 'class AreWeThereYet' class's public static void main(String[] args) -method is missing 
+or your program crashed due to an exception. More information java.util.NoSuchElementException: No line found
+	at org.junit.Assert.fail(Assert.java:88)
+	at AreWeThereYetTest.callMain(AreWeThereYetTest.java:50)
+	at AreWeThereYetTest.test(AreWeThereYetTest.java:34)
+	at AreWeThereYetTest.test3(AreWeThereYetTest.java:27)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
