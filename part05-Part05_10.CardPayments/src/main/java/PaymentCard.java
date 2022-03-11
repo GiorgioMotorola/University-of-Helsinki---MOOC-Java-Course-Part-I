@@ -16,9 +16,12 @@ public class PaymentCard {
     }
 
     public boolean takeMoney(double amount) {
-        // implement the method so that it only takes money from the card if
-        // the balance is at least the amount parameter.
-        // returns true if successful and false otherwise
-        return false;
+        boolean isValid = false;
+        if (amount <= this.balance) {
+            this.balance -= amount;
+            isValid = true;
+        }
+            return isValid;
+        
     }
 }
